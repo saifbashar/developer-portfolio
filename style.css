@@ -12,6 +12,7 @@ h1 {
 
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 .top-banner {
   background-image: url(images/top-banner.png);
@@ -30,9 +31,16 @@ section {
   font-weight: 700;
 }
 
-.box2 {
-  width: 50%;
-}
-.box2 img {
+.box1 img {
   width: 80%;
+}
+
+.middle-banner {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.middle-banner .box1 p {
+  padding-right: 120px;
+  text-align: justify;
 }
