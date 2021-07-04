@@ -10,6 +10,15 @@ body {
 
   margin-bottom: 10%;
 }
+.bg1 {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.bg2 {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .first-item h1 {
   font-size: 3em;
   font-weight: 700;
