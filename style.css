@@ -1,0 +1,64 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+.orange-color {
+  color: orange;
+}
+.first {
+  display: flex;
+
+  margin-bottom: 10%;
+}
+.first-item h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+.first-item {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.first-item img {
+  width: 80%;
+}
+.first-item p {
+  text-align: justify;
+  padding-right: 10%;
+}
+.link-hire {
+  text-decoration: none;
+  background: linear-gradient(red, orange);
+  color: white;
+  padding: 10px;
+}
+
+.third-1 {
+  box-shadow: 10px 10px 40px grey;
+  width: 40%;
+  margin-left: 5%;
+  padding: 40px 30px;
+}
+.third-1 h1 {
+  font-size: 40px;
+}
+
+.total {
+  margin-top: 5%;
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+footer p {
+  text-align: center;
+}
+.bo-1 {
+  border-left: 5px solid orange;
+  background-color: white;
+}
+.bo-2 {
+  border-left: 5px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
